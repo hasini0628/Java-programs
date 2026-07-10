@@ -10,3 +10,9 @@ public class PalindromeNumber {
             rev = rev * 10 + digit;
             num = num / 10;
         }
+        if(temp == rev)
+            System.out.println("Palindrome");
+        else
+            System.out.println("Not Palindrome");
+    }
+}
