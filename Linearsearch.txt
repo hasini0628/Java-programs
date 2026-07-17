@@ -8,3 +8,9 @@ public class LinearSearch {
                 System.out.println("Element found at index " + i);
                 flag = 1;
                 break;
+            }
+        }
+        if(flag == 0)
+            System.out.println("Element not found");
+    }
+}
